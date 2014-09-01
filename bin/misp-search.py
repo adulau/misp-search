@@ -32,5 +32,5 @@ for q in args.q:
         else:
             print r.text
     else:
-        if args.d:
+            print "Error while passing the query request check API key, SSL certificate and URL of the MISP instance"
             print "Query %s -> HTTP error code %d " % (q,r.status_code)
